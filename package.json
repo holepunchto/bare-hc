@@ -1,0 +1,37 @@
+{
+  "name": "bare-hc",
+  "version": "0.0.0",
+  "description": "Bare bindings for libhc",
+  "exports": {
+    ".": "./index.js",
+    "./package": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "binding.c",
+    "binding.js",
+    "CMakeLists.txt",
+    "prebuilds"
+  ],
+  "addon": true,
+  "scripts": {
+    "test": "prettier . --check && bare test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/bare-hc.git"
+  },
+  "author": "Holepunch",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/holepunchto/bare-hc/issues"
+  },
+  "homepage": "https://github.com/holepunchto/bare-hc",
+  "devDependencies": {
+    "brittle": "^3.5.0",
+    "cmake-bare": "^1.1.7",
+    "cmake-fetch": "^1.0.0",
+    "prettier": "^3.5.3",
+    "prettier-config-holepunch": "^2.0.0"
+  }
+}

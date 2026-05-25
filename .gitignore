@@ -1,0 +1,9 @@
+node_modules
+sandbox.js
+sandbox
+coverage
+package-lock.json
+build
+prebuilds
+.cache
+.claude
