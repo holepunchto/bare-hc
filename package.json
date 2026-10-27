@@ -1,6 +1,6 @@
 {
   "name": "bare-hc",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Bare bindings for libhc",
   "exports": {
     ".": "./index.js",
