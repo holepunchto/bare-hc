@@ -5,7 +5,7 @@ find_package(cmake-fetch REQUIRED PATHS node_modules/cmake-fetch)
 
 project(bare_hc C CXX)
 
-fetch_package("github:holepunchto/libhc")
+fetch_package("github:holepunchto/libhc#9ec329b")
 
 add_bare_module(bare_hc)
 
